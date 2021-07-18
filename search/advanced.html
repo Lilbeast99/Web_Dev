@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+</head>
+<body>
+    <header id ="header">
+        <img id="advancedlogo" src="google.png" alt="Google Advanced Logo">
+        <nav id ="navbar">
+            <a class="indexnav" href="index.html">Google Search</a>
+            <a class="indexnav" href="Image.html">Google Images</a>
+        </nav>
+    </header>
+    <div id ="heading1">
+        <h4 id ="h4">Advanced Search<h4>
+        <h5 id ="h5">Find pages with...</h5>
+    </div>
+    <div id ="advancedform_container">
+        <form action="https://google.com/search">
+            <div id ="inputfield">
+            <div class="spacing">
+                <div class="field">
+                    <p class = "text_advanced">all these words:</p>
+                    <input class="field_input" type="text" name="as_q">
+                </div>
+            </div>
+            <div class="spacing">
+                <div class="field">
+                    <p class = "text_advanced">This exact word or phrase:</p>
+                    <input class="field_input" type="text" name="as_epq">
+                </div>
+            </div>
+            <div class="spacing">
+                <div class="field">
+                    <p class = "text_advanced">any of this words:</p>
+                    <input class="field_input" type="text" name="as_oq">
+                </div>
+            </div>
+            <div class="spacing">
+                <div class="field">
+                    <p class = "text_advanced">none of these words:</p>
+                    <input class="field_input" type="text" name="as_eq">
+                </div>
+            </div>
+                <div classs= "spacing">
+                    <div id = "advancedbutton">
+                        <input id ="submitadvanced" type="submit" value="Advanced Search">
+                    </div>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
